@@ -1,0 +1,86 @@
+.tweet-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tweet-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1da1f2;
+}
+
+.tweet {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  color: #14171a;
+}
+
+.date {
+  color: #657786;
+  font-size: 0.9em;
+}
+
+.tweet-content {
+  margin-bottom: 15px;
+  line-height: 1.4;
+  color: #14171a;
+}
+
+.tweet-actions {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e1e8ed;
+  padding-top: 10px;
+}
+
+.tweet-actions button {
+  background: none;
+  border: none;
+  color: #657786;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 20px;
+  transition: background-color 0.2s;
+}
+
+.tweet-actions button:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  color: #1da1f2;
+}
+
+.like-button:hover {
+  color: #e0245e !important;
+}
+
+.retweet-button:hover {
+  color: #17bf63 !important;
+}
+
+.loading, .error, .no-tweets {
+  text-align: center;
+  padding: 20px;
+  color: #657786;
+}
+
+.error {
+  color: #e0245e;
+}
