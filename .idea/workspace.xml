@@ -4,91 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0f77b55-00b1-41ed-a43d-2b769872a2f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/clone/twitter_api/controller/TweetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Backend-Twitter-Example.git.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/pom.xml.new" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/TwitterApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/configuration/CorsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/configuration/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/controller/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/controller/CommentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/controller/LikeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/controller/RetweetController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/controller/TweetController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/dto/CommentDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/dto/LoginDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/dto/RegisterDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/dto/TweetDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/dto/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/entity/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/entity/Like.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/entity/Retweet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/entity/Tweet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/exception/ApiException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/exception/ErrorDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/exception/ValidationErrorDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/repository/CommentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/repository/LikeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/repository/RetweetRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/repository/TweetRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/security/CustomUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/security/JwtAuthenticationEntryPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/security/JwtAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/security/JwtTokenProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/CommentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/LikeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/RetweetService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/TweetService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/impl/CommentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/impl/LikeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/impl/RetweetServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/impl/TweetServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/java/com/twitter/api/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/test/java/com/twitter/api/TwitterApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/test/java/com/twitter/api/service/TweetServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/src/test/java/com/twitter/api/service/UserServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/twitter-frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/twitter-frontend/src/services/auth.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-api/twitter-frontend/src/services/tweet.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/simple-test-client/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/src/components/TweetList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/src/components/TweetList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/CreateTweet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/CreateTweet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Navbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Profile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/Register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/TweetList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/components/TweetList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/reportWebVitals.js" afterDir="false" />
+    <list default="true" id="e0f77b55-00b1-41ed-a43d-2b769872a2f7" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/api/AuthApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/api/TweetApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/pages/LoginPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/pages/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/pages/RegisterPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/pages/RegisterPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/pages/TweetListPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/src/pages/TweetListPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-frontend/twitter-frontend-main/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-frontend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-frontend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-frontend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-frontend/.idea/twitter-frontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-frontend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-frontend/twitter-frontend/src/reportWebVitals.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,20 +52,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Dogancan Kınık &lt;dogancankinik@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Oguzhanevin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Oguzhanevin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Oguzhanevin/FSWEB-s19-Challenge.git",
-    "accountId": "1cec177b-24c6-403c-892e-ed27f8d8679d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Oguzhanevin/FSWEB-s19-Challenge.git&quot;,
+    &quot;accountId&quot;: &quot;1cec177b-24c6-403c-892e-ed27f8d8679d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -127,42 +79,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TwitterApiApplication.executor": "Run",
-    "JUnit.AuthServiceTest.executor": "Run",
-    "JUnit.TweetServiceTest.executor": "Run",
-    "JUnit.TweetServiceTest.testCreateTweet.executor": "Run",
-    "JUnit.TweetServiceTest.testDeleteTweet_SuccessByAdmin.executor": "Run",
-    "JUnit.TweetServiceTest.testDeleteTweet_SuccessByOwner.executor": "Run",
-    "JUnit.TweetServiceTest.testGetTweetById_NotFound.executor": "Run",
-    "JUnit.TweetServiceTest.testGetTweetById_Success.executor": "Run",
-    "JUnit.TweetServiceTest.testUpdateTweet_NotAuthorized.executor": "Run",
-    "JUnit.TweetServiceTest.testUpdateTweet_Success.executor": "Run",
-    "JUnit.UserServiceTest.executor": "Run",
-    "Maven.twitter-api [clean].executor": "Run",
-    "Maven.twitter-api [compile].executor": "Run",
-    "Maven.twitter-api [install].executor": "Run",
-    "Maven.twitter-api [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
-    "Maven.twitter-api [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor": "Run",
-    "Maven.twitter-api [org.springframework.boot:spring-boot-maven-plugin:3.4.2:run].executor": "Run",
-    "Maven.twitter-api [org.springframework.boot:spring-boot-maven-plugin:3.4.2:start].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/oevin/IdeaProjects/FSWEB-S19D1-Maven",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "settings.editor.splitter.proportion": "0.28134558",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TwitterApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TweetServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TweetServiceTest.testCreateTweet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TweetServiceTest.testDeleteTweet_SuccessByAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TweetServiceTest.testDeleteTweet_SuccessByOwner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TweetServiceTest.testGetTweetById_NotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TweetServiceTest.testGetTweetById_Success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TweetServiceTest.testUpdateTweet_NotAuthorized.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TweetServiceTest.testUpdateTweet_Success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.twitter-api [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.twitter-api [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.twitter-api [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.twitter-api [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.twitter-api [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.twitter-api [org.springframework.boot:spring-boot-maven-plugin:3.4.2:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.twitter-api [org.springframework.boot:spring-boot-maven-plugin:3.4.2:start].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oevin/IdeaProjects/FSWEB-S19D1-Maven&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28134558&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.twitter.clone.twitter_api.exception" />
@@ -275,11 +227,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739353880312</updated>
-      <workItem from="1741863527515" duration="7692000" />
+      <workItem from="1741863527515" duration="8097000" />
+      <workItem from="1741874832342" duration="60000" />
     </task>
+    <task id="LOCAL-00001" summary="tamamlandı">
+      <option name="closed" value="true" />
+      <created>1741871413636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741871413636</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tamamlandı">
+      <option name="closed" value="true" />
+      <created>1741871438760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741871438760</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <option name="closed" value="true" />
+      <created>1741871487847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741871487847</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="tamamlandı" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
 </project>
